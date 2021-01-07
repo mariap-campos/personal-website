@@ -20,16 +20,16 @@ function Header() {
         <S.NavWrapper>
             <S.NavItems>
                 <S.NavItem>
-                    <a target="_blank" href="mailto:mpfc.maria@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="icon-envelope"/></a>
+                    <a target="_blank" rel="noreferrer" href="mailto:mpfc.maria@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="icon-envelope"/></a>
                 </S.NavItem>
                 <S.NavItem>
-                    <a target="_blank" href="https://github.com/mariap-campos"><FontAwesomeIcon icon={faGithub} className="icon-github"/></a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/mariap-campos"><FontAwesomeIcon icon={faGithub} className="icon-github"/></a>
                 </S.NavItem>
                 <S.NavItem>
-                    <a target="_blank" href="https://github.com/mariap-campos"><FontAwesomeIcon icon={faLinkedin} className="icon-linkedin"/></a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/mariap-campos"><FontAwesomeIcon icon={faLinkedin} className="icon-linkedin"/></a>
                 </S.NavItem>
                 <S.NavItem>
-                    <a target="_blank" href="https://codepen.io/mariap-campos"><FontAwesomeIcon icon={faCodepen} className="icon-codepen"/></a>
+                    <a target="_blank" rel="noreferrer" href="https://codepen.io/mariap-campos"><FontAwesomeIcon icon={faCodepen} className="icon-codepen"/></a>
                 </S.NavItem>
             </S.NavItems>
 
