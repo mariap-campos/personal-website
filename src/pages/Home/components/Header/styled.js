@@ -41,10 +41,10 @@ export const NavItem = styled.li`
         color: var(--color-text)!important;
         transition: color 0.2s;
     }
-    svg.icon-envelope{color: var(--color-purple);transition: color 1s;}
-    svg.icon-github{color: var(--color-pink);transition: color 1s;}
-    svg.icon-linkedin{color: var(--color-blueish);transition: color 1s;}
-    svg.icon-codepen{color: var(--color-blueish);transition: color 1s;}   
+    svg.icon-envelope{color: var(--color-purple);transition: color 0.5s;}
+    svg.icon-github{color: var(--color-pink);transition: color 0.5s;}
+    svg.icon-linkedin{color: var(--color-blueish);transition: color 0.5s;}
+    svg.icon-codepen{color: var(--color-blueish);transition: color 0.5s;}   
 `;
 
 
