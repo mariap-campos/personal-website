@@ -5,6 +5,15 @@ export const ProfileWrapper = styled.div`
     padding: 55px 10px;
     display: flex;
     border-bottom: 3px solid var(--color-blueish);
+    animation-name: slide;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+
+    @keyframes slide {
+                 0% { transform: translateX(-250px); opacity: 0; }
+                 50% { transform: translateX(-125px); opacity: 0; }
+                 100% { transform: translateX(0px); opacity: 1; }
+            }
 `;
 
 export const ProfileImage = styled.div`

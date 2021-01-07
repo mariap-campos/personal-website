@@ -1,8 +1,6 @@
 import React from 'react';
 import * as S from './styled';
 import profileImg from '../../../../assets/images/profile.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJedi } from '@fortawesome/free-solid-svg-icons'
 
 function AboutMe() {
     return (
