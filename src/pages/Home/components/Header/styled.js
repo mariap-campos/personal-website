@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderWrapper = styled.div`
-    width: 65vw;
+    width: 60vw;
     padding-top: 65px;
 `;
 
@@ -10,7 +10,7 @@ export const TitleWrapper = styled.div`
     justify-content: space-between;
 `;
 export const Title = styled.div`
-    font-family: 'Rokkitt';
+    font-family: 'Rokkitt', sans-serif;
     font-size: 7rem;
     font-weight: 700;
     color: var(--color-text);
