@@ -20,10 +20,6 @@ export const Title = styled.div`
     animation-duration: 1.2s;
     animation-timing-function: ease;
 
-    @keyframes fade-in {
-                 0% {  opacity: 0; }
-                 100% { opacity: 1; }
-            }
 `;
 export const Logo = styled.div`
  img {
@@ -33,11 +29,6 @@ export const Logo = styled.div`
     animation-timing-function: ease;
  }
 
- @keyframes slide {
-                 0% { transform: translateX(-300px); opacity: 0; }
-                 50% { transform: translateX(-170px); opacity: 0; }
-                 100% { transform: translateX(0px); opacity: 1; }
-            }
 `;
 
 export const NavWrapper = styled.div`
@@ -48,9 +39,7 @@ export const NavItems = styled.ul`
     width: 35vw;
     border-top: 3px solid var(--color-blueish);
     padding: 10px 0px;
-    animation-name: fade-in;
-    animation-duration: 1.2s;
-    animation-timing-function: ease;
+
 `;
 export const NavItem = styled.li`
     svg {

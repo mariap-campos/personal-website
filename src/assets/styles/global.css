@@ -58,3 +58,15 @@ body, input, button, textarea{
       font-size: 62.5%;
    }
 }
+
+/* ANIMATIONS */
+
+@keyframes slide {
+   0% { transform: translateX(-150px); opacity: 0; }
+   50% { transform: translateX(0px); opacity: 1; }
+}
+
+@keyframes fade-in {
+   0% { opacity: 0; }
+   50% { opacity: 1; }
+}
