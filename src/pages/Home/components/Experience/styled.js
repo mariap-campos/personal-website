@@ -27,6 +27,7 @@ export const ResumeWrapper = styled.div`
 export const ExperienceWrapper = styled.div`
     width: 60vw;
     padding: 55px 10px;
+    line-height: 3rem;
     animation-name: slide;
     animation-duration: 1.2s;
     animation-timing-function: ease;
