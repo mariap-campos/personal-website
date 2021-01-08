@@ -26,7 +26,7 @@ function Experience() {
                 </S.CompanyWrapper>
             </S.ExperienceWrapper>
             <S.ResumeWrapper>
-            <a href={Resume} target="_blank" className="resume-link">resume</a>
+            <a href={Resume} target="_blank" rel="noreferrer" className="resume-link">resume</a>
 
             </S.ResumeWrapper>
         </S.ExperienceContainer>

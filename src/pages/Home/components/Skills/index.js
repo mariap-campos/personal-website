@@ -1,7 +1,5 @@
 import React from 'react';
 import * as S from './styled';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink,faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import javascript from '../../../../assets/icons/javascript.png'
 
