@@ -12,54 +12,44 @@ export const TitleWrapper = styled.h1`
     margin-bottom: 10px;
 `;
 
-export const TabWrapper = styled.div`
-  .react-tabs {
-    &__tab-list{
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        margin-top: 20px;
-        font-size: 25px;
-        font-family: 'Rokkitt';
-        font-weight: 500;
+export const CardsWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
+export const CardItem = styled.div`
+    h3 {
+        text-align: center;
+        margin-bottom: 16px;
         color: var(--color-text);
     }
 
-    &__tab{
-        transition: color 0.5s ease;
-        &:hover {
-            color: var(--color-blueish);
-            transition: color 0.5s ease;
-            cursor: pointer;
-        }
-    }
-
-
-    &__tab--selected{
-        color: var(--color-blueish);
-        border-bottom: 2px solid;
-    }    
-    }
 `;
-
-export const CardWrapper = styled.div`
-    display: flex;
-    justify-content: space-around;
-    background: linear-gradient(to bottom, #F9F9F9 65%, var(--color-blueish) 35%);
-    margin-top: 30px;
-    padding: 50px 60px 20px 60px;
-    border-radius: 15px;
-`;
-export const CardItem = styled.div`
-    text-align: center;
-`;
-export const ImagesWrapper = styled.div`
-    img {
-        width: 50px;
-        margin-bottom: 20px;
-    }
-
-`;
-export const TextWrapper = styled.div`
+export const Card = styled.div`
+    background-color: var(--color-blueish);
+    padding: 18px;
+    width: 200px;
+    margin-right: 10px;
     color: white;
-    `;
+    border-radius: 10px;
+
+    svg {
+        margin-right: 11px;
+    }
+
+    &:nth-of-type(1) {
+        background-color: var(--color-purple);
+    }
+    &:nth-of-type(2) {
+        background-color: var(--color-pink);
+    }
+    &:nth-of-type(4) {
+        background-color: var(--color-blueish-light);
+    }
+
+    &:last-of-type {
+        margin-right: 0px;
+    }
+`;
+export const Skills = styled.div`
+    margin-bottom: 6px;
+`;
