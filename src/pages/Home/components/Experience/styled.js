@@ -4,24 +4,40 @@ export const ExperienceContainer = styled.div`
     border-bottom: 3px solid var(--color-blueish);
 `;
 export const ResumeWrapper = styled.div`
-    text-align: center;
-    margin-bottom: 20px;
-    .resume-link {
-        color: var(--color-blueish);
-        text-decoration: none;
-        font-size: 20px;
-        border: 3px solid;
-        padding: 4px 14px;
-        border-radius: 6px;
-        transition: background 1s ease, border 1s ease;
-    }
-
-    .resume-link:hover {
-        color: white;
-        border: 3px solid var(--color-blueish);
-        background-color: var(--color-blueish);
-        transition: background 1s ease, border 1s ease;
-    }
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 200px;  
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -282;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: var(--color-blueish);
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  top: 40px;
+  right: -38px;
+  position: relative; 
+  a {
+      text-decoration: none;
+      color: var(--color-blueish);
+  }
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
 `;
 
 export const ExperienceWrapper = styled.div`

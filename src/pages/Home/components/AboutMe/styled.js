@@ -6,6 +6,13 @@ export const ProfileWrapper = styled.div`
     display: flex;
     border-bottom: 3px solid var(--color-blueish);
 
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 90vw;
+        margin: 0 auto;
+        padding: 25px 0px;
+    }
+
 `;
 
 export const ProfileImage = styled.div`
@@ -16,6 +23,10 @@ export const ProfileImage = styled.div`
     animation-name: slide;
     animation-duration: 1.2s;
     animation-timing-function: ease;
+
+    @media screen and (max-width: 768px) {
+        margin: 10px auto;
+    }
 `;
 export const ProfileTextWrapper = styled.div`
     margin-left: 40px;
@@ -23,6 +34,10 @@ export const ProfileTextWrapper = styled.div`
     animation-name: slide;
     animation-duration: 1.2s;
     animation-timing-function: ease;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 0px;
+    }
 `;
 export const ProfileText = styled.div`
     line-height: 3rem;

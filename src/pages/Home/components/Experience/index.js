@@ -26,7 +26,12 @@ function Experience() {
                 </S.CompanyWrapper>
             </S.ExperienceWrapper>
             <S.ResumeWrapper>
-            <a href={Resume} target="_blank" rel="noreferrer" className="resume-link">resume</a>
+                <div class="svg-wrapper">
+                    <div class="text"><a href={Resume} target="_blank" rel="noreferrer" className="resume-link">resume</a></div>
+                    <svg height="50" width="200" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="shape" height="50" width="200" />
+                    </svg>
+                </div>
 
             </S.ResumeWrapper>
         </S.ExperienceContainer>
