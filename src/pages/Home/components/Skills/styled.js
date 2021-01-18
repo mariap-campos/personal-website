@@ -5,6 +5,9 @@ export const SkillsContainer = styled.div`
 `;
 export const SkillsWrapper = styled.div`
     padding: 55px 10px;
+    animation-name: slide;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
 
     @media screen and (max-width: 768px) {
         width: 90vw;
