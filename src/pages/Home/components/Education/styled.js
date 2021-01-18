@@ -24,6 +24,7 @@ export const TitleWrapper = styled.h1`
 `;
 export const CollegeWrapper = styled.div`
     display: flex;
+    margin-top: 20px;
     
     @media screen and (max-width: 768px) {
        flex-direction: column;
@@ -32,7 +33,6 @@ export const CollegeWrapper = styled.div`
 export const NameWrapper = styled.div`
     font-size: 16px;
     flex: 2;
-    margin-top: 20px;
 
     span {
         color: #969696;

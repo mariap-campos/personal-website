@@ -53,6 +53,10 @@ export const CompanyWrapper = styled.div`
 export const NameWrapper = styled.div`
     font-size: 14px;
     flex: 1;
+
+    span {
+        color: var(--color-text-light);
+    }
     @media screen and (max-width: 768px) {
        display: flex;
 
