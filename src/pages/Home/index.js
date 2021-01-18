@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Languages from './components/Languages';
+import Footer from './components/Footer';
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
         <Skills></Skills>
         <Education></Education>
         <Languages></Languages>
+        <Footer></Footer>
         </>
     )
 }
