@@ -4,7 +4,7 @@ import profileImg from '../../../../assets/images/profile.png'
 
 function AboutMe() {
     return (
-        <S.ProfileWrapper>
+        <S.ProfileWrapper className="container">
             <S.ProfileImage>
             <img src={profileImg} alt="" className="heroImg"/>
             </S.ProfileImage>

@@ -3,7 +3,7 @@
 
    --color-background: #ffffff;
    --color-shadow: #dfe2e6;
-   --color-text: #313131;
+   --color-text: #444452;
    --color-purple: #711C91;
    --color-pink: #EA01D9;
    --color-blueish: #0BBDC7;
@@ -33,6 +33,12 @@ h2 {
 
 html, body, #root {
    height: 100vh;
+   color: var(--color-text);
+}
+
+.container {
+   border-bottom: 3px solid var(--color-blueish);
+   width: 60vw;
 }
 
 body {
@@ -49,14 +55,16 @@ body, input, button, textarea{
    color: var(--color-text-in-dark);
 }
 
-.container {
-   width: 90vw;
-   max-width: 700px;
-}
 
 @media (min-width: 700px) {
    :root {
       font-size: 62.5%;
+   }
+
+   .container{
+         width: 90vw;
+         margin: 0 auto;
+         padding: 25px 0px;
    }
 }
 

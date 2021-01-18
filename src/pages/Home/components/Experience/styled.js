@@ -2,46 +2,37 @@ import styled from 'styled-components'
 
 export const ExperienceContainer = styled.div`
     border-bottom: 3px solid var(--color-blueish);
+    width: 60vw;
+
+    @media screen and (max-width: 768px) {
+        width: 90vw;
+        margin: 0 auto;
+        padding: 25px 0px;
+    }
 `;
 export const ResumeWrapper = styled.div`
-.svg-wrapper {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 auto;
-  width: 200px;  
-}
-.shape {
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -282;
-  stroke-width: 8px;
-  fill: transparent;
-  stroke: var(--color-blueish);
-  border-bottom: 5px solid black;
-  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-}
-.text {
-  font-size: 22px;
-  line-height: 32px;
-  letter-spacing: 6px;
-  font-weight: 600;
-  top: 40px;
-  right: -38px;
-  position: relative; 
-  a {
-      text-decoration: none;
-      color: var(--color-blueish);
-  }
-}
-.svg-wrapper:hover .shape {
-  stroke-width: 2px;
-  stroke-dashoffset: 0;
-  stroke-dasharray: 760;
-}
+    text-align: center;
+    margin-bottom: 20px;
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: var(--color-blueish);
+        border: 2px solid var(--color-blueish);
+        padding: 4px 16px;
+        transition: background-color 0.6s ease, color 1s ease;
+    }
+
+    a:hover {
+        background-color: var(--color-blueish);
+        color: white;
+        transition: background-color 0.6s ease, color 1s ease;
+    }
+
+
 `;
 
 export const ExperienceWrapper = styled.div`
-    width: 60vw;
     padding: 55px 10px;
     line-height: 3rem;
     animation-name: slide;
@@ -54,14 +45,30 @@ export const TitleWrapper = styled.h1`
 `;
 export const CompanyWrapper = styled.div`
     display: flex;
+    
+    @media screen and (max-width: 768px) {
+       flex-direction: column;
+    }
 `;
 export const NameWrapper = styled.div`
     font-size: 14px;
     flex: 1;
+    @media screen and (max-width: 768px) {
+       display: flex;
+
+       span {
+        line-height: 4rem;
+        margin-left: 10px;
+       }
+    }
 `;
 export const AdditionalInfo = styled.div`
     text-align: end;
     flex:4;
+
+    @media screen and (max-width: 768px) {
+       text-align: unset;
+    }
 `;
 export const Location = styled.div`
     margin-top: 10px;

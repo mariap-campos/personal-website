@@ -14,10 +14,10 @@ function Experience() {
                 <S.CompanyWrapper>
                     <S.NameWrapper>
                         <h2>enext</h2>
-                        AGOSTO 2019 - CURRENT
+                        <span>AGOSTO 2019 - CURRENT</span>
                     </S.NameWrapper>
                     <S.AdditionalInfo>
-                        <h2>Front-end Developer Intern</h2>
+                        <h2>front-end developer intern</h2>
                         <span>Working with web development for ecommerce aplications using JS ES6+ combined with the VTEX platform, doing anything from minor changes in the applications to completely new features and landing pages. Some applicattions also use React.</span> <br/>
                         <S.Location>
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="icon-Marker"/> São Paulo (remote) | <a target="_blank" rel="noreferrer" href="https://enext.com.br"><FontAwesomeIcon icon={faLink} className="icon-link"/>enext.com.br</a>
@@ -26,13 +26,7 @@ function Experience() {
                 </S.CompanyWrapper>
             </S.ExperienceWrapper>
             <S.ResumeWrapper>
-                <div class="svg-wrapper">
-                    <div class="text"><a href={Resume} target="_blank" rel="noreferrer" className="resume-link">resume</a></div>
-                    <svg height="50" width="200" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="50" width="200" />
-                    </svg>
-                </div>
-
+                <a href={Resume} target="_blank" rel="noreferrer" className="resume-link">resume</a>
             </S.ResumeWrapper>
         </S.ExperienceContainer>
     )
