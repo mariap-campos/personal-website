@@ -14,7 +14,7 @@ function Experience() {
                 <S.CompanyWrapper>
                     <S.NameWrapper>
                         <h2>enext</h2>
-                        <span>AGOSTO 2019 - CURRENT</span>
+                        <span>AGOSTO 2020 - CURRENT</span>
                     </S.NameWrapper>
                     <S.AdditionalInfo>
                         <h2>front-end developer intern</h2>
