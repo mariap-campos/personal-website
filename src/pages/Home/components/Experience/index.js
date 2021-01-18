@@ -18,7 +18,7 @@ function Experience() {
                     </S.NameWrapper>
                     <S.AdditionalInfo>
                         <h2>front-end developer intern</h2>
-                        <span>Working with web development for ecommerce aplications using JS ES6+ combined with the VTEX platform, doing anything from minor changes in the applications to completely new features and landing pages. Some applicattions also use React.</span> <br/>
+                        <span>Working with web development for ecommerce applications using JS ES6+ combined with the VTEX platform, doing anything from minor changes in the applications to completely new features and landing pages. Also working with React.</span> <br/>
                         <S.Location>
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="icon-Marker"/> São Paulo (remote) | <a target="_blank" rel="noreferrer" href="https://enext.com.br"><FontAwesomeIcon icon={faLink} className="icon-link"/>enext.com.br</a>
                         </S.Location>

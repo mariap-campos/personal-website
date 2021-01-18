@@ -13,7 +13,7 @@ function AboutMe() {
                     front-end dev
                 </S.Title>
                 <S.ProfileText>
-                    Hello there! i’m a <strong>front-end developer</strong> 👾 still in development, currently working on my <strong>technology degree</strong>🎓 and always looking for more oportunitties to grow and learn. Passionate about <strong>programming and design</strong>💻, also kinda nerdy.
+                    Hello there! i’m a <strong>front-end developer</strong> 👾 still in development, currently working on my <strong>technology degree</strong>🎓 and always looking for more opportunities to grow and learn. Passionate about <strong>programming and design</strong>💻, also kinda nerdy.
                 </S.ProfileText>
                 <S.AditionalInfo>
                     <strong>20 years</strong> | brasil
