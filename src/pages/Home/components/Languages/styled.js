@@ -25,8 +25,7 @@ export const LanguagesWrapper = styled.div`
 `;
 export const LanguageWrapper = styled.div`
     display: flex;
-    width: 40vw;
-    margin: 20px auto;
+    margin: 40px auto 20px auto;
     justify-content: space-between;
     font-size: 18px;
     padding: 12px;
