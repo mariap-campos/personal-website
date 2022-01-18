@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function Home() {
     return (
         <>
-        <Header></Header>
+        {/* <Header></Header> */}
         <AboutMe></AboutMe>
         <Experience></Experience>
         <Skills></Skills>
