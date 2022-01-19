@@ -3,7 +3,7 @@ import * as S from './styled';
 import profileImg from '../../../../assets/images/profile.png'
 import rocketAnimation from '../../../../assets/images/rocket.gif'
 
-function AboutMe() {
+function AboutMe() {   
     return (
         <S.Container className="container">
             <img src={rocketAnimation} alt="" className="rocket" />

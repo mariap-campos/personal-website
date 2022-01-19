@@ -2,12 +2,16 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100vw;
-    height: 95Vh;
+    height: 100Vh;
     display: flex;
     background: linear-gradient(-45deg, var(--color-red), var(--color-orange), var(--color-yellow),  var(--color-green), var(--color-blueish), var(--color-blue));
 	background-size: 500% 500%;
 	animation: gradient 16s ease infinite;
     position: relative;
+
+    &:after {
+        content: '';
+    }
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -24,18 +28,6 @@ export const Container = styled.div`
         width: 160vw;
     }
     }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 
 `;
