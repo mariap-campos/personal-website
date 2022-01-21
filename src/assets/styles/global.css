@@ -41,7 +41,21 @@ html, body, #root {
    /* height: 100vh; */
    color: var(--color-text);
    overflow-x: hidden;
+   
 }
+
+::-webkit-scrollbar-track {
+   background: white;
+ }
+
+ ::-webkit-scrollbar {
+   width: 6px;
+ }
+
+ ::-webkit-scrollbar-thumb {
+   background: rgb(219, 219, 219);
+   border: 1px solid white;
+ }
 
 
 body {

@@ -6,15 +6,22 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Languages from './components/Languages';
 import Footer from './components/Footer';
+import SocialMedia from './components/SocialMedia';
 import * as S from './styled';
 function Home() {
     const [showNav, setShowNav] = useState(false);
+    const [showSocial, setShowSocial] = useState(false);
 
     const handleScroll = () => {
         if (window.scrollY >= window.innerHeight - 100){
             setShowNav(true);
         } else {
             setShowNav(false)
+        }
+        if (window.scrollY >= window.innerHeight - 500){
+          setShowSocial(true);
+        } else {
+          setShowSocial(false)
         }
       };
     
@@ -33,6 +40,7 @@ function Home() {
             <Education></Education>
             <Languages></Languages>
             <Footer></Footer>
+            <SocialMedia showNav={showSocial}></SocialMedia>
         </S.Container>
     )
 }

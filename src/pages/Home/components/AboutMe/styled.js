@@ -13,11 +13,6 @@ export const Container = styled.div`
         content: '';
     }
 
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        margin: 0 auto;
-        padding: 25px 0px;
-    }
 
     .rocket {
         position: absolute;
@@ -37,6 +32,14 @@ export const ProfileWrapper = styled.div`
     height: fit-content;
     margin: 16% auto;
     display: flex;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        width: 80vw;
+        margin: 0 auto;
+    }
 `;
 
 export const ProfileImage = styled.div`

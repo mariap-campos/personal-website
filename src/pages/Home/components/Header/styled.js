@@ -7,14 +7,11 @@ export const HeaderWrapper = styled.div`
     width: 100vw;
     border-bottom: 2px solid white;
     padding: 20px;
-    transition: padding 0.5s ease;
+    transition: all 0.3s ease;
+
 
     &.active {
-        padding: 10px;
-        background: linear-gradient(-45deg, var(--color-red), var(--color-orange), var(--color-yellow),  var(--color-green), var(--color-blueish), var(--color-blue));
-        background-size: 500% 500%;
-        animation: gradient 16s ease infinite;
-        transition: padding 0.5s ease;
+        opacity: 0;
     }
 
     @media screen and (max-width: 768px) {
@@ -40,22 +37,20 @@ export const Title = styled.div`
   color: white;
   transition: font-size 0.5s ease;
 
-  &.active {
-    font-size: 46px;
-        transition: font-size 0.5s ease;
-    }
-
     @media screen and (max-width: 768px) {
-        font-size: 66px;
-        margin-left: 16px;
-        line-height: 46px;
-        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 6px;
     }
 `;
 
 export const NavWrapper = styled.div`
     flex: 1;
     margin-top: 12px; 
+
+        @media screen and (max-width: 768px) {
+        display: none;
+    }
 
 `;
 export const NavItems = styled.ul`
@@ -73,7 +68,6 @@ export const NavItem = styled.li`
     margin-right: 14px;
     width: 38px;
     height: 38px;
-    padding-top: 5px;
     transition: height 0.5s ease;
 
     @media screen and (max-width: 768px) {
@@ -85,13 +79,13 @@ export const NavItem = styled.li`
     &:hover {
         transition: all 0.3s ease;
         svg {
-            font-size: 32px;
+            transform: scale(1.3);
             transition: all 0.3s ease;
         }
     }
 
     svg {
-        font-size: 28px;
+        font-size: 26px;
         color: white;
         transition: all 0.3s ease;
     }

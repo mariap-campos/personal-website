@@ -14,30 +14,30 @@ function Languages() {
                 <S.LanguageWrapper>
                     portuguese 
                     <S.Rating>
-                        <FontAwesomeIcon icon={faSquare} color="var(--color-purple)" />
-                        <FontAwesomeIcon icon={faSquare} color="var(--color-pink)" />
+                        <FontAwesomeIcon icon={faSquare} color="var(--color-orange)" />
+                        <FontAwesomeIcon icon={faSquare} color="var(--color-yellow)" />
                         <FontAwesomeIcon icon={faSquare} color="var(--color-blueish)"/>
-                        <FontAwesomeIcon icon={faSquare} color="var(--color-blueish-light)"/>
+                        <FontAwesomeIcon icon={faSquare} color="var(--color-blue)"/>
                         native
                     </S.Rating>
                 </S.LanguageWrapper>
                 <S.LanguageWrapper>
                     english
                     <S.Rating>
-                        <FontAwesomeIcon icon={faSquare} color="var(--color-purple)" />
-                        <FontAwesomeIcon icon={faSquare} color="var(--color-pink)" />
+                        <FontAwesomeIcon icon={faSquare} color="var(--color-orange)" />
+                        <FontAwesomeIcon icon={faSquare} color="var(--color-yellow)" />
                         <FontAwesomeIcon icon={faSquare} color="var(--color-blueish)"/>
-                        <FontAwesomeIcon icon={faSquare} color="var(--color-blueish-light)"/>
+                        <FontAwesomeIcon icon={faSquare} color="var(--color-blue)"/>
                         fluent
                     </S.Rating>
                 </S.LanguageWrapper>
                 <S.LanguageWrapper>
                     spanish 
                     <S.Rating>
-                        <FontAwesomeIcon icon={faSquare} color="var(--color-purple)" />
-                        <FontAwesomeIcon icon={faSquareEmpty} color="var(--color-pink)" />
+                        <FontAwesomeIcon icon={faSquare} color="var(--color-orange)" />
+                        <FontAwesomeIcon icon={faSquareEmpty} color="var(--color-yellow)" />
                         <FontAwesomeIcon icon={faSquareEmpty} color="var(--color-blueish)"/>
-                        <FontAwesomeIcon icon={faSquareEmpty} color="var(--color-blueish-light)"/>
+                        <FontAwesomeIcon icon={faSquareEmpty} color="var(--color-blue)"/>
                         basic
                     </S.Rating>
                 </S.LanguageWrapper>
