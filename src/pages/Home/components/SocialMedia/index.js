@@ -4,16 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn, faCodepen, faSpotify } from '@fortawesome/free-brands-svg-icons'
 
-function Header({ showNav }) {
+function SocialMedia({ showNav }) {
 
     return (
-        <S.HeaderWrapper className={showNav ? 'active' : null}>
-            <S.TitleWrapper>
-                <S.Title className={showNav ? 'active' : null}>
-                    maria p. campos
-                </S.Title>
-                <S.NavWrapper>
-                    <S.NavItems>
+        <S.SocialMediaWrapper className={showNav ? 'active' : null}>
+                                <S.NavItems>
                         <a target="_blank" title="email" rel="noreferrer" href="mailto:mpfc.maria@gmail.com">
                             <S.NavItem className="email">
                                 <FontAwesomeIcon icon={faEnvelope} className="icon-envelope" />
@@ -40,11 +35,8 @@ function Header({ showNav }) {
                             </S.NavItem>
                         </a>
                     </S.NavItems>
-
-                </S.NavWrapper>
-            </S.TitleWrapper>
-        </S.HeaderWrapper>
+        </S.SocialMediaWrapper>
     )
 }
 
-export default Header;
+export default SocialMedia;

@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 export const LanguagesContainer = styled.div`
-    border-bottom: 3px solid var(--color-blueish);
+    border-top: 2px solid var(--color-blueish);
     width: 60vw;
+    margin: 30px auto;
 
     @media screen and (max-width: 768px) {
         width: 90vw;
@@ -12,12 +13,12 @@ export const LanguagesContainer = styled.div`
 `;
 
 export const TitleWrapper = styled.h1`
-    font-size: 4rem;
-    margin-bottom: 10px;
+    font-size: 5rem;
+    margin-bottom: 20px;
 `;
 
 export const LanguagesWrapper = styled.div`
-    padding: 55px 10px;
+    padding: 70px 10px;
     line-height: 3rem;
     animation-name: slide;
     animation-duration: 1.2s;

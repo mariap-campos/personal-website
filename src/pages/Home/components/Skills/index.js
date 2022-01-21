@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './styled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare, faHtml5, faCss3Alt, faReact, faGitAlt, faChrome, faFigma} from '@fortawesome/free-brands-svg-icons'
-import { faDatabase, faUsers, faPencilAlt, faFillDrip, faFileImage } from '@fortawesome/free-solid-svg-icons'
+import { faUsers, faPencilAlt, faFillDrip, faFileImage, faFlask } from '@fortawesome/free-solid-svg-icons'
 
 function Skills() {
     return (
@@ -26,10 +26,6 @@ function Skills() {
                             <FontAwesomeIcon icon={faCss3Alt} className="icon-Marker"/>
                             (s)css
                         </S.Card>
-                        <S.Card>
-                            <FontAwesomeIcon icon={faDatabase} className="icon-Marker"/>
-                            sql
-                        </S.Card>
                     </S.CardItem>
                     <S.CardItem>
                         <h3>frameworks/libs</h3>
@@ -38,8 +34,16 @@ function Skills() {
                             react
                         </S.Card>
                         <S.Card>
-                            <FontAwesomeIcon icon={faJsSquare} className="icon-Marker"/>
-                            jquery
+                            <FontAwesomeIcon icon={faReact} className="icon-Marker"/>
+                            styled components
+                        </S.Card>
+                        <S.Card>
+                            <FontAwesomeIcon icon={faFlask} className="icon-Marker"/>
+                            jest (unit tests)
+                        </S.Card>
+                        <S.Card>
+                            <FontAwesomeIcon icon={faReact} className="icon-Marker"/>
+                            react native
                         </S.Card>
                     </S.CardItem>
                     <S.CardItem>
