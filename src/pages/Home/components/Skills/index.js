@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from './styled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare, faHtml5, faCss3Alt, faReact, faGitAlt, faChrome, faFigma} from '@fortawesome/free-brands-svg-icons'
-import { faDatabase, faUsers, faPencilAlt, faFillDrip, faFileImage, faFlask, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faUsers, faPencilAlt, faFillDrip, faFileImage, faFlask } from '@fortawesome/free-solid-svg-icons'
 
 function Skills() {
     return (
