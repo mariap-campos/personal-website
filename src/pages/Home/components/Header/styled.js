@@ -1,33 +1,27 @@
 import styled from 'styled-components'
 
 export const HeaderWrapper = styled.div`
-    width: 60vw;
-    padding-top: 65px;
-    border-bottom: 3px solid var(--color-blueish);
-    animation-name: slide;
-    animation-duration: 1s;
-    animation-timing-function: ease;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    border-bottom: 2px solid white;
+    padding: 20px;
+    transition: all 0.3s ease;
+
+
+    &.active {
+        opacity: 0;
+    }
 
     @media screen and (max-width: 768px) {
-        width: 100vw;
-        padding-top: 34px;
-        border-bottom: none;
     }
 `;
 
 export const TitleWrapper = styled.div`
-    height: 100px;
-    width: 60vw;
+    width: 90vw;
     display: flex;
-    /* background: linear-gradient(to right, 
-        var(--color-purple) 0%,
-        var(--color-purple) 21%,
-        var(--color-pink) 21%,
-        var(--color-pink) 42%,
-        var(--color-blueish) 42%,
-        var(--color-blueish) 70%,
-        var(--color-blueish-light) 70%,
-        var(--color-blueish-light) 70%); */
+    margin: 0 auto;
 
     @media screen and (max-width: 768px) {
         width: 100vw;
@@ -40,17 +34,23 @@ export const Title = styled.div`
   font-size: 54px;
   font-weight: 800;
   letter-spacing: 6px;
+  color: white;
+  transition: font-size 0.5s ease;
+
     @media screen and (max-width: 768px) {
-        font-size: 66px;
-        margin-left: 16px;
-        line-height: 46px;
-        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 6px;
     }
 `;
 
 export const NavWrapper = styled.div`
     flex: 1;
     margin-top: 12px; 
+
+        @media screen and (max-width: 768px) {
+        display: none;
+    }
 
 `;
 export const NavItems = styled.ul`
@@ -68,7 +68,6 @@ export const NavItem = styled.li`
     margin-right: 14px;
     width: 38px;
     height: 38px;
-    padding-top: 5px;
     transition: height 0.5s ease;
 
     @media screen and (max-width: 768px) {
@@ -76,24 +75,19 @@ export const NavItem = styled.li`
         width: 25vw;
     }
 
-    &.email { background-color: var(--color-purple); }
-    &.github {background-color: var(--color-pink);}
-    &.linkedin {background-color: var(--color-blueish);}
-    &.codepen {background-color: var(--color-blueish-light);}
 
     &:hover {
-        height: 68px;
-        transition: height 0.5s ease;
+        transition: all 0.3s ease;
         svg {
-            margin-top: 24px;
-            transition: margin-top 0.5s ease;
+            transform: scale(1.3);
+            transition: all 0.3s ease;
         }
     }
 
     svg {
-        font-size: 28px;
+        font-size: 26px;
         color: white;
-        transition: margin-top 0.5s ease;
+        transition: all 0.3s ease;
     }
 `;
 

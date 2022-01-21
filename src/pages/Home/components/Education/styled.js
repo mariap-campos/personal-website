@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const EducationContainer = styled.div`
-    border-bottom: 3px solid var(--color-blueish);
     width: 60vw;
+    margin: 40px auto;
 
     @media screen and (max-width: 768px) {
         width: 90vw;
@@ -19,8 +19,8 @@ export const EducationWrapper = styled.div`
     animation-timing-function: ease;
 `;
 export const TitleWrapper = styled.h1`
-    font-size: 4rem;
-    margin-bottom: 10px;
+    font-size: 5rem;
+    margin-bottom: 20px;
 `;
 export const CollegeWrapper = styled.div`
     display: flex;
@@ -46,6 +46,7 @@ export const NameWrapper = styled.div`
 export const AdditionalInfo = styled.div`
     text-align: end;
     flex:1;
+    font-weight: 500;
 
     span {
         line-height: 4rem;

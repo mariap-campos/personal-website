@@ -14,16 +14,7 @@ function Education() {
                         <p>SYSTEM DEVELOPMENT AND ANALYSIS<span>@Mogi das Cruzes, SP - Brasil</span></p>
                     </S.NameWrapper>
                     <S.AdditionalInfo>
-                        <span>AGOSTO 2019 - CURRENT</span>
-                    </S.AdditionalInfo>
-                </S.CollegeWrapper>
-                <S.CollegeWrapper>
-                    <S.NameWrapper>
-                        <h2>universidade paulista</h2>
-                        <p>MECHATRONIC ENGINEERING (unfinished)<span>@Tatuapé, SP - Brasil</span></p>
-                    </S.NameWrapper>
-                    <S.AdditionalInfo>
-                    <span>JANUARY 2017 - JULY 2019</span>
+                        <span>GRADUATED - JULY 2021</span>
                     </S.AdditionalInfo>
                 </S.CollegeWrapper>
             </S.EducationWrapper>

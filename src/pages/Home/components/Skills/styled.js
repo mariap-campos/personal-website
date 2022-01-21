@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
-    border-bottom: 3px solid var(--color-blueish);
+    background: #444452;
 `;
 export const SkillsWrapper = styled.div`
     padding: 55px 10px;
-    animation-name: slide;
-    animation-duration: 1.2s;
-    animation-timing-function: ease;
+    width: 60vw;
+    margin: 0 auto;
 
     @media screen and (max-width: 768px) {
         width: 90vw;
@@ -17,8 +16,15 @@ export const SkillsWrapper = styled.div`
 `;
 
 export const TitleWrapper = styled.h1`
-    font-size: 4rem;
-    margin-bottom: 10px;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: white;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 10px;
+    }
+
+
 `;
 
 export const CardsWrapper = styled.div`
@@ -30,10 +36,12 @@ export const CardsWrapper = styled.div`
     }
 `;
 export const CardItem = styled.div`
+
     h3 {
+        font-size: 16px;
         text-align: center;
         margin-bottom: 16px;
-        color: var(--color-text);
+        color: white;
     }
 
     @media screen and (max-width: 768px) {
@@ -44,13 +52,19 @@ export const CardItem = styled.div`
 export const Card = styled.div`
     background-color: var(--color-blueish);
     padding: 18px;
+    margin: 16px 0;
     width: 14vw;
-    margin-right: 10px;
     color: white;
+    transition: all ease 0.3s;
 
     @media screen and (max-width: 768px) {
         width: 60vw;
-        margin: 0 auto;
+        margin: 16px auto;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all ease 0.3s;
     }
 
     svg {
@@ -58,12 +72,12 @@ export const Card = styled.div`
     }
 
     &:nth-of-type(1) {
-        background-color: var(--color-purple);
+        background-color: var(--color-orange);
     }
     &:nth-of-type(2) {
-        background-color: var(--color-pink);
+        background-color: var(--color-yellow);
     }
     &:nth-of-type(4) {
-        background-color: var(--color-blueish-light);
+        background-color: var(--color-blue);
     }
 `;

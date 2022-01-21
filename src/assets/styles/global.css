@@ -5,11 +5,16 @@
    --color-shadow: #dfe2e6;
    --color-text: #444452;
    --color-text-light: #969696;
-   --color-purple: #711C91;
-   --color-pink: #EA01D9;
-   --color-blueish: #0BBDC7;
-   --color-blueish-light: #81d7db;
-   --color-blue-dark: #123E7B;
+
+
+   --color-red: #ea3114;
+   --color-orange: #ff7237;
+   --color-yellow: #ffb06b;
+   --color-yellow-light: #ffddad;
+   --color-green: #4aafa8;
+   --color-blueish: #008c9a;
+   --color-blue: #007694;
+   --color-blue-dark: #003470;
 
 
 }
@@ -21,7 +26,7 @@
 }
 
 h1 {
-   font-size: 3.6rem;
+   font-size: 4rem;
    font-family: 'Rokkitt', sans-serif;
    color: var(--color-text);
 }
@@ -33,14 +38,25 @@ h2 {
 }
 
 html, body, #root {
-   height: 100vh;
+   /* height: 100vh; */
    color: var(--color-text);
+   overflow-x: hidden;
+   
 }
 
-.container {
-   border-bottom: 3px solid var(--color-blueish);
-   width: 60vw;
-}
+::-webkit-scrollbar-track {
+   background: white;
+ }
+
+ ::-webkit-scrollbar {
+   width: 6px;
+ }
+
+ ::-webkit-scrollbar-thumb {
+   background: rgb(219, 219, 219);
+   border: 1px solid white;
+ }
+
 
 body {
    background: var(--color-background);
@@ -84,3 +100,9 @@ body, input, button, textarea{
 @keyframes linearwipe{ 
    from { width: 0 ;opacity: 0 } 
  }  
+
+ @keyframes gradient {
+	0% { background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
