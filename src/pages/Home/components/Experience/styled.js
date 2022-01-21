@@ -13,9 +13,11 @@ export const ExperienceContainer = styled.div`
 export const ResumeWrapper = styled.div`
     text-align: center;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
 
     a {
-
+        width: 250px;
         background: var(--color-text);
         text-decoration: none;
         font-size: 18px;
@@ -24,7 +26,10 @@ export const ResumeWrapper = styled.div`
         padding: 8px 16px;
         transition: all 0.6s ease;
         border-radius: 14px;
-        margin-right: 20px;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 15px;
+    }
 
         &:hover {
 
@@ -32,6 +37,12 @@ export const ResumeWrapper = styled.div`
         transition: all 0.6s ease;
     }
     }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+    align-items: center;
+    }
+
 
 
 `;
